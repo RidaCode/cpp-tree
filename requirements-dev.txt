@@ -1,0 +1,2 @@
+# Optional formatter/linter. Runtime and unittest need no third-party packages.
+ruff==0.14.0

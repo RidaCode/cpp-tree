@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a reproducible problem with the tracker.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Remove personal notes and paths before posting. For vulnerabilities, use the private route in SECURITY.md."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: A short example in --demo mode is especially useful.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: App version, Python version, OS, terminal, and terminal size if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs or screenshot
+      description: Optional. Do not attach real progress files containing private notes.

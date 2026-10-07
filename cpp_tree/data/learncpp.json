@@ -1,0 +1,2392 @@
+[
+  {
+    "id": "0",
+    "title": "Introduction / Getting Started",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "0.1",
+        "key": "0:0.1",
+        "title": "Introduction to these tutorials",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-these-tutorials/"
+      },
+      {
+        "id": "0.2",
+        "key": "0:0.2",
+        "title": "Introduction to programs and programming languages",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-programming-languages/"
+      },
+      {
+        "id": "0.3",
+        "key": "0:0.3",
+        "title": "Introduction to C/C++",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-cplusplus/"
+      },
+      {
+        "id": "0.4",
+        "key": "0:0.4",
+        "title": "Introduction to C++ development",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-cpp-development/"
+      },
+      {
+        "id": "0.5",
+        "key": "0:0.5",
+        "title": "Introduction to the compiler, linker, and libraries",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-the-compiler-linker-and-libraries/"
+      },
+      {
+        "id": "0.6",
+        "key": "0:0.6",
+        "title": "Installing an Integrated Development Environment (IDE)",
+        "url": "https://www.learncpp.com/cpp-tutorial/installing-an-integrated-development-environment-ide/"
+      },
+      {
+        "id": "0.7",
+        "key": "0:0.7",
+        "title": "Compiling your first program",
+        "url": "https://www.learncpp.com/cpp-tutorial/compiling-your-first-program/"
+      },
+      {
+        "id": "0.8",
+        "key": "0:0.8",
+        "title": "A few common C++ problems",
+        "url": "https://www.learncpp.com/cpp-tutorial/a-few-common-cpp-problems/"
+      },
+      {
+        "id": "0.9",
+        "key": "0:0.9",
+        "title": "Configuring your compiler: Build configurations",
+        "url": "https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-build-configurations/"
+      },
+      {
+        "id": "0.10",
+        "key": "0:0.10",
+        "title": "Configuring your compiler: Compiler extensions",
+        "url": "https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-compiler-extensions/"
+      },
+      {
+        "id": "0.11",
+        "key": "0:0.11",
+        "title": "Configuring your compiler: Warning and error levels",
+        "url": "https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-warning-and-error-levels/"
+      },
+      {
+        "id": "0.12",
+        "key": "0:0.12",
+        "title": "Configuring your compiler: Choosing a language standard",
+        "url": "https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-choosing-a-language-standard/"
+      },
+      {
+        "id": "0.13",
+        "key": "0:0.13",
+        "title": "What language standard is my compiler using?",
+        "url": "https://www.learncpp.com/cpp-tutorial/what-language-standard-is-my-compiler-using/"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "title": "C++ Basics",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "1.1",
+        "key": "1:1.1",
+        "title": "Statements and the structure of a program",
+        "url": "https://www.learncpp.com/cpp-tutorial/statements-and-the-structure-of-a-program/"
+      },
+      {
+        "id": "1.2",
+        "key": "1:1.2",
+        "title": "Comments",
+        "url": "https://www.learncpp.com/cpp-tutorial/comments/"
+      },
+      {
+        "id": "1.3",
+        "key": "1:1.3",
+        "title": "Introduction to objects and variables",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-objects-and-variables/"
+      },
+      {
+        "id": "1.4",
+        "key": "1:1.4",
+        "title": "Variable assignment and initialization",
+        "url": "https://www.learncpp.com/cpp-tutorial/variable-assignment-and-initialization/"
+      },
+      {
+        "id": "1.5",
+        "key": "1:1.5",
+        "title": "Introduction to iostream: cout, cin, and endl",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-iostream-cout-cin-and-endl/"
+      },
+      {
+        "id": "1.6",
+        "key": "1:1.6",
+        "title": "Uninitialized variables and undefined behavior",
+        "url": "https://www.learncpp.com/cpp-tutorial/uninitialized-variables-and-undefined-behavior/"
+      },
+      {
+        "id": "1.7",
+        "key": "1:1.7",
+        "title": "Keywords and naming identifiers",
+        "url": "https://www.learncpp.com/cpp-tutorial/keywords-and-naming-identifiers/"
+      },
+      {
+        "id": "1.8",
+        "key": "1:1.8",
+        "title": "Whitespace and basic formatting",
+        "url": "https://www.learncpp.com/cpp-tutorial/whitespace-and-basic-formatting/"
+      },
+      {
+        "id": "1.9",
+        "key": "1:1.9",
+        "title": "Introduction to literals and operators",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-literals-and-operators/"
+      },
+      {
+        "id": "1.10",
+        "key": "1:1.10",
+        "title": "Introduction to expressions",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-expressions/"
+      },
+      {
+        "id": "1.11",
+        "key": "1:1.11",
+        "title": "Developing your first program",
+        "url": "https://www.learncpp.com/cpp-tutorial/developing-your-first-program/"
+      },
+      {
+        "id": "1.x",
+        "key": "1:1.x",
+        "title": "Chapter 1 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-1-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "C++ Basics: Functions and Files",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "2.1",
+        "key": "2:2.1",
+        "title": "Introduction to functions",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-functions/"
+      },
+      {
+        "id": "2.2",
+        "key": "2:2.2",
+        "title": "Function return values (value-returning functions)",
+        "url": "https://www.learncpp.com/cpp-tutorial/function-return-values-value-returning-functions/"
+      },
+      {
+        "id": "2.3",
+        "key": "2:2.3",
+        "title": "Void functions (non-value returning functions)",
+        "url": "https://www.learncpp.com/cpp-tutorial/void-functions-non-value-returning-functions/"
+      },
+      {
+        "id": "2.4",
+        "key": "2:2.4",
+        "title": "Introduction to function parameters and arguments",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-function-parameters-and-arguments/"
+      },
+      {
+        "id": "2.5",
+        "key": "2:2.5",
+        "title": "Introduction to local scope",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-local-scope/"
+      },
+      {
+        "id": "2.6",
+        "key": "2:2.6",
+        "title": "Why functions are useful, and how to use them effectively",
+        "url": "https://www.learncpp.com/cpp-tutorial/why-functions-are-useful-and-how-to-use-them-effectively/"
+      },
+      {
+        "id": "2.7",
+        "key": "2:2.7",
+        "title": "Forward declarations and definitions",
+        "url": "https://www.learncpp.com/cpp-tutorial/forward-declarations/"
+      },
+      {
+        "id": "2.8",
+        "key": "2:2.8",
+        "title": "Programs with multiple code files",
+        "url": "https://www.learncpp.com/cpp-tutorial/programs-with-multiple-code-files/"
+      },
+      {
+        "id": "2.9",
+        "key": "2:2.9",
+        "title": "Naming collisions and an introduction to namespaces",
+        "url": "https://www.learncpp.com/cpp-tutorial/naming-collisions-and-an-introduction-to-namespaces/"
+      },
+      {
+        "id": "2.10",
+        "key": "2:2.10",
+        "title": "Introduction to the preprocessor",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-the-preprocessor/"
+      },
+      {
+        "id": "2.11",
+        "key": "2:2.11",
+        "title": "Header files",
+        "url": "https://www.learncpp.com/cpp-tutorial/header-files/"
+      },
+      {
+        "id": "2.12",
+        "key": "2:2.12",
+        "title": "Header guards",
+        "url": "https://www.learncpp.com/cpp-tutorial/header-guards/"
+      },
+      {
+        "id": "2.13",
+        "key": "2:2.13",
+        "title": "How to design your first programs",
+        "url": "https://www.learncpp.com/cpp-tutorial/how-to-design-your-first-programs/"
+      },
+      {
+        "id": "2.x",
+        "key": "2:2.x",
+        "title": "Chapter 2 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-2-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Debugging C++ Programs",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "3.1",
+        "key": "3:3.1",
+        "title": "Syntax and semantic errors",
+        "url": "https://www.learncpp.com/cpp-tutorial/syntax-and-semantic-errors/"
+      },
+      {
+        "id": "3.2",
+        "key": "3:3.2",
+        "title": "The debugging process",
+        "url": "https://www.learncpp.com/cpp-tutorial/the-debugging-process/"
+      },
+      {
+        "id": "3.3",
+        "key": "3:3.3",
+        "title": "A strategy for debugging",
+        "url": "https://www.learncpp.com/cpp-tutorial/a-strategy-for-debugging/"
+      },
+      {
+        "id": "3.4",
+        "key": "3:3.4",
+        "title": "Basic debugging tactics",
+        "url": "https://www.learncpp.com/cpp-tutorial/basic-debugging-tactics/"
+      },
+      {
+        "id": "3.5",
+        "key": "3:3.5",
+        "title": "More debugging tactics",
+        "url": "https://www.learncpp.com/cpp-tutorial/more-debugging-tactics/"
+      },
+      {
+        "id": "3.6",
+        "key": "3:3.6",
+        "title": "Using an integrated debugger: Stepping",
+        "url": "https://www.learncpp.com/cpp-tutorial/using-an-integrated-debugger-stepping/"
+      },
+      {
+        "id": "3.7",
+        "key": "3:3.7",
+        "title": "Using an integrated debugger: Running and breakpoints",
+        "url": "https://www.learncpp.com/cpp-tutorial/using-an-integrated-debugger-running-and-breakpoints/"
+      },
+      {
+        "id": "3.8",
+        "key": "3:3.8",
+        "title": "Using an integrated debugger: Watching variables",
+        "url": "https://www.learncpp.com/cpp-tutorial/using-an-integrated-debugger-watching-variables/"
+      },
+      {
+        "id": "3.9",
+        "key": "3:3.9",
+        "title": "Using an integrated debugger: The call stack",
+        "url": "https://www.learncpp.com/cpp-tutorial/using-an-integrated-debugger-the-call-stack/"
+      },
+      {
+        "id": "3.10",
+        "key": "3:3.10",
+        "title": "Finding issues before they become problems",
+        "url": "https://www.learncpp.com/cpp-tutorial/finding-issues-before-they-become-problems/"
+      },
+      {
+        "id": "3.x",
+        "key": "3:3.x",
+        "title": "Chapter 3 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-3-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Fundamental Data Types",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "4.1",
+        "key": "4:4.1",
+        "title": "Introduction to fundamental data types",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-fundamental-data-types/"
+      },
+      {
+        "id": "4.2",
+        "key": "4:4.2",
+        "title": "Void",
+        "url": "https://www.learncpp.com/cpp-tutorial/void/"
+      },
+      {
+        "id": "4.3",
+        "key": "4:4.3",
+        "title": "Object sizes and the sizeof operator",
+        "url": "https://www.learncpp.com/cpp-tutorial/object-sizes-and-the-sizeof-operator/"
+      },
+      {
+        "id": "4.4",
+        "key": "4:4.4",
+        "title": "Signed integers",
+        "url": "https://www.learncpp.com/cpp-tutorial/signed-integers/"
+      },
+      {
+        "id": "4.5",
+        "key": "4:4.5",
+        "title": "Unsigned integers, and why to avoid them",
+        "url": "https://www.learncpp.com/cpp-tutorial/unsigned-integers-and-why-to-avoid-them/"
+      },
+      {
+        "id": "4.6",
+        "key": "4:4.6",
+        "title": "Fixed-width integers and size_t",
+        "url": "https://www.learncpp.com/cpp-tutorial/fixed-width-integers-and-size-t/"
+      },
+      {
+        "id": "4.7",
+        "key": "4:4.7",
+        "title": "Introduction to scientific notation",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-scientific-notation/"
+      },
+      {
+        "id": "4.8",
+        "key": "4:4.8",
+        "title": "Floating point numbers",
+        "url": "https://www.learncpp.com/cpp-tutorial/floating-point-numbers/"
+      },
+      {
+        "id": "4.9",
+        "key": "4:4.9",
+        "title": "Boolean values",
+        "url": "https://www.learncpp.com/cpp-tutorial/boolean-values/"
+      },
+      {
+        "id": "4.10",
+        "key": "4:4.10",
+        "title": "Introduction to if statements",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-if-statements/"
+      },
+      {
+        "id": "4.11",
+        "key": "4:4.11",
+        "title": "Chars",
+        "url": "https://www.learncpp.com/cpp-tutorial/chars/"
+      },
+      {
+        "id": "4.12",
+        "key": "4:4.12",
+        "title": "Introduction to type conversion and static_cast",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-type-conversion-and-static_cast/"
+      },
+      {
+        "id": "4.x",
+        "key": "4:4.x",
+        "title": "Chapter 4 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-4-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Constants and Strings",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "5.1",
+        "key": "5:5.1",
+        "title": "Constant variables (named constants)",
+        "url": "https://www.learncpp.com/cpp-tutorial/constant-variables-named-constants/"
+      },
+      {
+        "id": "5.2",
+        "key": "5:5.2",
+        "title": "Literals",
+        "url": "https://www.learncpp.com/cpp-tutorial/literals/"
+      },
+      {
+        "id": "5.3",
+        "key": "5:5.3",
+        "title": "Numeral systems (decimal, binary, hexadecimal, and octal)",
+        "url": "https://www.learncpp.com/cpp-tutorial/numeral-systems-decimal-binary-hexadecimal-and-octal/"
+      },
+      {
+        "id": "5.4",
+        "key": "5:5.4",
+        "title": "The as-if rule and compile-time optimization",
+        "note": "Split",
+        "url": "https://www.learncpp.com/cpp-tutorial/the-as-if-rule-and-compile-time-optimization/"
+      },
+      {
+        "id": "5.5",
+        "key": "5:5.5",
+        "title": "Constant expressions",
+        "note": "Updated",
+        "url": "https://www.learncpp.com/cpp-tutorial/constant-expressions/"
+      },
+      {
+        "id": "5.6",
+        "key": "5:5.6",
+        "title": "Constexpr variables",
+        "url": "https://www.learncpp.com/cpp-tutorial/constexpr-variables/"
+      },
+      {
+        "id": "5.7",
+        "key": "5:5.7",
+        "title": "Introduction to std::string",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-stdstring/"
+      },
+      {
+        "id": "5.8",
+        "key": "5:5.8",
+        "title": "Introduction to std::string_view",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-stdstring_view/"
+      },
+      {
+        "id": "5.9",
+        "key": "5:5.9",
+        "title": "std::string_view (part 2)",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdstring_view-part-2/"
+      },
+      {
+        "id": "5.x",
+        "key": "5:5.x",
+        "title": "Chapter 5 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-5-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Operators",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "6.1",
+        "key": "6:6.1",
+        "title": "Operator precedence and associativity",
+        "url": "https://www.learncpp.com/cpp-tutorial/operator-precedence-and-associativity/"
+      },
+      {
+        "id": "6.2",
+        "key": "6:6.2",
+        "title": "Arithmetic operators",
+        "url": "https://www.learncpp.com/cpp-tutorial/arithmetic-operators/"
+      },
+      {
+        "id": "6.3",
+        "key": "6:6.3",
+        "title": "Remainder and Exponentiation",
+        "url": "https://www.learncpp.com/cpp-tutorial/remainder-and-exponentiation/"
+      },
+      {
+        "id": "6.4",
+        "key": "6:6.4",
+        "title": "Increment/decrement operators, and side effects",
+        "url": "https://www.learncpp.com/cpp-tutorial/increment-decrement-operators-and-side-effects/"
+      },
+      {
+        "id": "6.5",
+        "key": "6:6.5",
+        "title": "The comma operator",
+        "url": "https://www.learncpp.com/cpp-tutorial/the-comma-operator/"
+      },
+      {
+        "id": "6.6",
+        "key": "6:6.6",
+        "title": "The conditional operator",
+        "note": "Moved",
+        "url": "https://www.learncpp.com/cpp-tutorial/the-conditional-operator/"
+      },
+      {
+        "id": "6.7",
+        "key": "6:6.7",
+        "title": "Relational operators and floating point comparisons",
+        "url": "https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/"
+      },
+      {
+        "id": "6.8",
+        "key": "6:6.8",
+        "title": "Logical operators",
+        "url": "https://www.learncpp.com/cpp-tutorial/logical-operators/"
+      },
+      {
+        "id": "6.x",
+        "key": "6:6.x",
+        "title": "Chapter 6 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-6-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "O",
+    "title": "Bit Manipulation (optional chapter)",
+    "group": "side",
+    "lessons": [
+      {
+        "id": "O.1",
+        "key": "O:O.1",
+        "title": "Bit flags and bit manipulation via std::bitset",
+        "url": "https://www.learncpp.com/cpp-tutorial/bit-flags-and-bit-manipulation-via-stdbitset/"
+      },
+      {
+        "id": "O.2",
+        "key": "O:O.2",
+        "title": "Bitwise operators",
+        "url": "https://www.learncpp.com/cpp-tutorial/bitwise-operators/"
+      },
+      {
+        "id": "O.3",
+        "key": "O:O.3",
+        "title": "Bit manipulation with bitwise operators and bit masks",
+        "url": "https://www.learncpp.com/cpp-tutorial/bit-manipulation-with-bitwise-operators-and-bit-masks/"
+      },
+      {
+        "id": "O.4",
+        "key": "O:O.4",
+        "title": "Converting integers between binary and decimal representation",
+        "url": "https://www.learncpp.com/cpp-tutorial/converting-integers-between-binary-and-decimal-representation/"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Scope, Duration, and Linkage",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "7.1",
+        "key": "7:7.1",
+        "title": "Compound statements (blocks)",
+        "url": "https://www.learncpp.com/cpp-tutorial/compound-statements-blocks/"
+      },
+      {
+        "id": "7.2",
+        "key": "7:7.2",
+        "title": "User-defined namespaces and the scope resolution operator",
+        "url": "https://www.learncpp.com/cpp-tutorial/user-defined-namespaces-and-the-scope-resolution-operator/"
+      },
+      {
+        "id": "7.3",
+        "key": "7:7.3",
+        "title": "Local variables",
+        "url": "https://www.learncpp.com/cpp-tutorial/local-variables/"
+      },
+      {
+        "id": "7.4",
+        "key": "7:7.4",
+        "title": "Introduction to global variables",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-global-variables/"
+      },
+      {
+        "id": "7.5",
+        "key": "7:7.5",
+        "title": "Variable shadowing (name hiding)",
+        "url": "https://www.learncpp.com/cpp-tutorial/variable-shadowing-name-hiding/"
+      },
+      {
+        "id": "7.6",
+        "key": "7:7.6",
+        "title": "Internal linkage",
+        "url": "https://www.learncpp.com/cpp-tutorial/internal-linkage/"
+      },
+      {
+        "id": "7.7",
+        "key": "7:7.7",
+        "title": "External linkage and variable forward declarations",
+        "url": "https://www.learncpp.com/cpp-tutorial/external-linkage-and-variable-forward-declarations/"
+      },
+      {
+        "id": "7.8",
+        "key": "7:7.8",
+        "title": "Why (non-const) global variables are evil",
+        "url": "https://www.learncpp.com/cpp-tutorial/why-non-const-global-variables-are-evil/"
+      },
+      {
+        "id": "7.9",
+        "key": "7:7.9",
+        "title": "Inline functions and variables",
+        "note": "Moved",
+        "url": "https://www.learncpp.com/cpp-tutorial/inline-functions-and-variables/"
+      },
+      {
+        "id": "7.10",
+        "key": "7:7.10",
+        "title": "Sharing global constants across multiple files (using inline variables)",
+        "url": "https://www.learncpp.com/cpp-tutorial/sharing-global-constants-across-multiple-files-using-inline-variables/"
+      },
+      {
+        "id": "7.11",
+        "key": "7:7.11",
+        "title": "Static local variables",
+        "url": "https://www.learncpp.com/cpp-tutorial/static-local-variables/"
+      },
+      {
+        "id": "7.12",
+        "key": "7:7.12",
+        "title": "Scope, duration, and linkage summary",
+        "url": "https://www.learncpp.com/cpp-tutorial/scope-duration-and-linkage-summary/"
+      },
+      {
+        "id": "7.13",
+        "key": "7:7.13",
+        "title": "Using declarations and using directives",
+        "url": "https://www.learncpp.com/cpp-tutorial/using-declarations-and-using-directives/"
+      },
+      {
+        "id": "7.14",
+        "key": "7:7.14",
+        "title": "Unnamed and inline namespaces",
+        "url": "https://www.learncpp.com/cpp-tutorial/unnamed-and-inline-namespaces/"
+      },
+      {
+        "id": "7.x",
+        "key": "7:7.x",
+        "title": "Chapter 7 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-7-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Control Flow",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "8.1",
+        "key": "8:8.1",
+        "title": "Control flow introduction",
+        "url": "https://www.learncpp.com/cpp-tutorial/control-flow-introduction/"
+      },
+      {
+        "id": "8.2",
+        "key": "8:8.2",
+        "title": "If statements and blocks",
+        "url": "https://www.learncpp.com/cpp-tutorial/if-statements-and-blocks/"
+      },
+      {
+        "id": "8.3",
+        "key": "8:8.3",
+        "title": "Common if statement problems",
+        "url": "https://www.learncpp.com/cpp-tutorial/common-if-statement-problems/"
+      },
+      {
+        "id": "8.4",
+        "key": "8:8.4",
+        "title": "Constexpr if statements",
+        "url": "https://www.learncpp.com/cpp-tutorial/constexpr-if-statements/"
+      },
+      {
+        "id": "8.5",
+        "key": "8:8.5",
+        "title": "Switch statement basics",
+        "url": "https://www.learncpp.com/cpp-tutorial/switch-statement-basics/"
+      },
+      {
+        "id": "8.6",
+        "key": "8:8.6",
+        "title": "Switch fallthrough and scoping",
+        "url": "https://www.learncpp.com/cpp-tutorial/switch-fallthrough-and-scoping/"
+      },
+      {
+        "id": "8.7",
+        "key": "8:8.7",
+        "title": "Goto statements",
+        "url": "https://www.learncpp.com/cpp-tutorial/goto-statements/"
+      },
+      {
+        "id": "8.8",
+        "key": "8:8.8",
+        "title": "Introduction to loops and while statements",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-loops-and-while-statements/"
+      },
+      {
+        "id": "8.9",
+        "key": "8:8.9",
+        "title": "Do while statements",
+        "url": "https://www.learncpp.com/cpp-tutorial/do-while-statements/"
+      },
+      {
+        "id": "8.10",
+        "key": "8:8.10",
+        "title": "For statements",
+        "url": "https://www.learncpp.com/cpp-tutorial/for-statements/"
+      },
+      {
+        "id": "8.11",
+        "key": "8:8.11",
+        "title": "Break and continue",
+        "url": "https://www.learncpp.com/cpp-tutorial/break-and-continue/"
+      },
+      {
+        "id": "8.12",
+        "key": "8:8.12",
+        "title": "Halts (exiting your program early)",
+        "url": "https://www.learncpp.com/cpp-tutorial/halts-exiting-your-program-early/"
+      },
+      {
+        "id": "8.13",
+        "key": "8:8.13",
+        "title": "Introduction to random number generation",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-random-number-generation/"
+      },
+      {
+        "id": "8.14",
+        "key": "8:8.14",
+        "title": "Generating random numbers using Mersenne Twister",
+        "url": "https://www.learncpp.com/cpp-tutorial/generating-random-numbers-using-mersenne-twister/"
+      },
+      {
+        "id": "8.15",
+        "key": "8:8.15",
+        "title": "Global random numbers (Random.h)",
+        "url": "https://www.learncpp.com/cpp-tutorial/global-random-numbers-random-h/"
+      },
+      {
+        "id": "8.x",
+        "key": "8:8.x",
+        "title": "Chapter 8 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-8-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Error Detection and Handling",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "9.1",
+        "key": "9:9.1",
+        "title": "Introduction to testing your code",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-testing-your-code/"
+      },
+      {
+        "id": "9.2",
+        "key": "9:9.2",
+        "title": "Code coverage",
+        "url": "https://www.learncpp.com/cpp-tutorial/code-coverage/"
+      },
+      {
+        "id": "9.3",
+        "key": "9:9.3",
+        "title": "Common semantic errors in C++",
+        "url": "https://www.learncpp.com/cpp-tutorial/common-semantic-errors-in-c/"
+      },
+      {
+        "id": "9.4",
+        "key": "9:9.4",
+        "title": "Detecting and handling errors",
+        "url": "https://www.learncpp.com/cpp-tutorial/detecting-and-handling-errors/"
+      },
+      {
+        "id": "9.5",
+        "key": "9:9.5",
+        "title": "std::cin and handling invalid input",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdcin-and-handling-invalid-input/"
+      },
+      {
+        "id": "9.6",
+        "key": "9:9.6",
+        "title": "Assert and static_assert",
+        "url": "https://www.learncpp.com/cpp-tutorial/assert-and-static_assert/"
+      },
+      {
+        "id": "9.x",
+        "key": "9:9.x",
+        "title": "Chapter 9 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-9-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Type Conversion, Type Aliases, and Type Deduction",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "10.1",
+        "key": "10:10.1",
+        "title": "Implicit type conversion",
+        "url": "https://www.learncpp.com/cpp-tutorial/implicit-type-conversion/"
+      },
+      {
+        "id": "10.2",
+        "key": "10:10.2",
+        "title": "Floating-point and integral promotion",
+        "url": "https://www.learncpp.com/cpp-tutorial/floating-point-and-integral-promotion/"
+      },
+      {
+        "id": "10.3",
+        "key": "10:10.3",
+        "title": "Numeric conversions",
+        "url": "https://www.learncpp.com/cpp-tutorial/numeric-conversions/"
+      },
+      {
+        "id": "10.4",
+        "key": "10:10.4",
+        "title": "Narrowing conversions, list initialization, and constexpr initializers",
+        "url": "https://www.learncpp.com/cpp-tutorial/narrowing-conversions-list-initialization-and-constexpr-initializers/"
+      },
+      {
+        "id": "10.5",
+        "key": "10:10.5",
+        "title": "Arithmetic conversions",
+        "url": "https://www.learncpp.com/cpp-tutorial/arithmetic-conversions/"
+      },
+      {
+        "id": "10.6",
+        "key": "10:10.6",
+        "title": "Explicit type conversion (casting) and static_cast",
+        "url": "https://www.learncpp.com/cpp-tutorial/explicit-type-conversion-casting-and-static-cast/"
+      },
+      {
+        "id": "10.7",
+        "key": "10:10.7",
+        "title": "Typedefs and type aliases",
+        "url": "https://www.learncpp.com/cpp-tutorial/typedefs-and-type-aliases/"
+      },
+      {
+        "id": "10.8",
+        "key": "10:10.8",
+        "title": "Type deduction for objects using the auto keyword",
+        "url": "https://www.learncpp.com/cpp-tutorial/type-deduction-for-objects-using-the-auto-keyword/"
+      },
+      {
+        "id": "10.9",
+        "key": "10:10.9",
+        "title": "Type deduction for functions",
+        "url": "https://www.learncpp.com/cpp-tutorial/type-deduction-for-functions/"
+      },
+      {
+        "id": "10.x",
+        "key": "10:10.x",
+        "title": "Chapter 10 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-10-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Function Overloading and Function Templates",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "11.1",
+        "key": "11:11.1",
+        "title": "Introduction to function overloading",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-function-overloading/"
+      },
+      {
+        "id": "11.2",
+        "key": "11:11.2",
+        "title": "Function overload differentiation",
+        "url": "https://www.learncpp.com/cpp-tutorial/function-overload-differentiation/"
+      },
+      {
+        "id": "11.3",
+        "key": "11:11.3",
+        "title": "Function overload resolution and ambiguous matches",
+        "url": "https://www.learncpp.com/cpp-tutorial/function-overload-resolution-and-ambiguous-matches/"
+      },
+      {
+        "id": "11.4",
+        "key": "11:11.4",
+        "title": "Deleting functions",
+        "url": "https://www.learncpp.com/cpp-tutorial/deleting-functions/"
+      },
+      {
+        "id": "11.5",
+        "key": "11:11.5",
+        "title": "Default arguments",
+        "url": "https://www.learncpp.com/cpp-tutorial/default-arguments/"
+      },
+      {
+        "id": "11.6",
+        "key": "11:11.6",
+        "title": "Function templates",
+        "url": "https://www.learncpp.com/cpp-tutorial/function-templates/"
+      },
+      {
+        "id": "11.7",
+        "key": "11:11.7",
+        "title": "Function template instantiation",
+        "url": "https://www.learncpp.com/cpp-tutorial/function-template-instantiation/"
+      },
+      {
+        "id": "11.8",
+        "key": "11:11.8",
+        "title": "Function templates with multiple template types",
+        "url": "https://www.learncpp.com/cpp-tutorial/function-templates-with-multiple-template-types/"
+      },
+      {
+        "id": "11.9",
+        "key": "11:11.9",
+        "title": "Non-type template parameters",
+        "url": "https://www.learncpp.com/cpp-tutorial/non-type-template-parameters/"
+      },
+      {
+        "id": "11.10",
+        "key": "11:11.10",
+        "title": "Using function templates in multiple files",
+        "url": "https://www.learncpp.com/cpp-tutorial/using-function-templates-in-multiple-files/"
+      },
+      {
+        "id": "11.x",
+        "key": "11:11.x",
+        "title": "Chapter 11 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-11-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "F",
+    "title": "Constexpr functions",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "F.1",
+        "key": "F:F.1",
+        "title": "Constexpr functions",
+        "note": "Moved",
+        "url": "https://www.learncpp.com/cpp-tutorial/constexpr-functions/"
+      },
+      {
+        "id": "F.2",
+        "key": "F:F.2",
+        "title": "Constexpr functions (part 2)",
+        "note": "Split",
+        "url": "https://www.learncpp.com/cpp-tutorial/constexpr-functions-part-2/"
+      },
+      {
+        "id": "F.3",
+        "key": "F:F.3",
+        "title": "Constexpr functions (part 3) and consteval",
+        "note": "Split",
+        "url": "https://www.learncpp.com/cpp-tutorial/constexpr-functions-part-3-and-consteval/"
+      },
+      {
+        "id": "F.4",
+        "key": "F:F.4",
+        "title": "Constexpr functions (part 4)",
+        "note": "Split",
+        "url": "https://www.learncpp.com/cpp-tutorial/constexpr-functions-part-4/"
+      },
+      {
+        "id": "F.X",
+        "key": "F:F.X",
+        "title": "Chapter F summary and quiz",
+        "note": "Split",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-f-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Compound Types: References and Pointers",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "12.1",
+        "key": "12:12.1",
+        "title": "Introduction to compound data types",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-compound-data-types/"
+      },
+      {
+        "id": "12.2",
+        "key": "12:12.2",
+        "title": "Value categories (lvalues and rvalues)",
+        "url": "https://www.learncpp.com/cpp-tutorial/value-categories-lvalues-and-rvalues/"
+      },
+      {
+        "id": "12.3",
+        "key": "12:12.3",
+        "title": "Lvalue references",
+        "url": "https://www.learncpp.com/cpp-tutorial/lvalue-references/"
+      },
+      {
+        "id": "12.4",
+        "key": "12:12.4",
+        "title": "Lvalue references to const",
+        "url": "https://www.learncpp.com/cpp-tutorial/lvalue-references-to-const/"
+      },
+      {
+        "id": "12.5",
+        "key": "12:12.5",
+        "title": "Pass by lvalue reference",
+        "url": "https://www.learncpp.com/cpp-tutorial/pass-by-lvalue-reference/"
+      },
+      {
+        "id": "12.6",
+        "key": "12:12.6",
+        "title": "Pass by const lvalue reference",
+        "url": "https://www.learncpp.com/cpp-tutorial/pass-by-const-lvalue-reference/"
+      },
+      {
+        "id": "12.7",
+        "key": "12:12.7",
+        "title": "Introduction to pointers",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-pointers/"
+      },
+      {
+        "id": "12.8",
+        "key": "12:12.8",
+        "title": "Null pointers",
+        "url": "https://www.learncpp.com/cpp-tutorial/null-pointers/"
+      },
+      {
+        "id": "12.9",
+        "key": "12:12.9",
+        "title": "Pointers and const",
+        "url": "https://www.learncpp.com/cpp-tutorial/pointers-and-const/"
+      },
+      {
+        "id": "12.10",
+        "key": "12:12.10",
+        "title": "Pass by address",
+        "url": "https://www.learncpp.com/cpp-tutorial/pass-by-address/"
+      },
+      {
+        "id": "12.11",
+        "key": "12:12.11",
+        "title": "Pass by address (part 2)",
+        "url": "https://www.learncpp.com/cpp-tutorial/pass-by-address-part-2/"
+      },
+      {
+        "id": "12.12",
+        "key": "12:12.12",
+        "title": "Return by reference and return by address",
+        "url": "https://www.learncpp.com/cpp-tutorial/return-by-reference-and-return-by-address/"
+      },
+      {
+        "id": "12.13",
+        "key": "12:12.13",
+        "title": "In and out parameters",
+        "url": "https://www.learncpp.com/cpp-tutorial/in-and-out-parameters/"
+      },
+      {
+        "id": "12.14",
+        "key": "12:12.14",
+        "title": "Type deduction with pointers, references, and const",
+        "url": "https://www.learncpp.com/cpp-tutorial/type-deduction-with-pointers-references-and-const/"
+      },
+      {
+        "id": "12.15",
+        "key": "12:12.15",
+        "title": "std::optional",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdoptional/"
+      },
+      {
+        "id": "12.x",
+        "key": "12:12.x",
+        "title": "Chapter 12 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-12-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Compound Types: Enums and Structs",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "13.1",
+        "key": "13:13.1",
+        "title": "Introduction to program-defined (user-defined) types",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-program-defined-user-defined-types/"
+      },
+      {
+        "id": "13.2",
+        "key": "13:13.2",
+        "title": "Unscoped enumerations",
+        "url": "https://www.learncpp.com/cpp-tutorial/unscoped-enumerations/"
+      },
+      {
+        "id": "13.3",
+        "key": "13:13.3",
+        "title": "Unscoped enumerator integral conversions",
+        "url": "https://www.learncpp.com/cpp-tutorial/unscoped-enumerator-integral-conversions/"
+      },
+      {
+        "id": "13.4",
+        "key": "13:13.4",
+        "title": "Converting an enumeration to and from a string",
+        "url": "https://www.learncpp.com/cpp-tutorial/converting-an-enumeration-to-and-from-a-string/"
+      },
+      {
+        "id": "13.5",
+        "key": "13:13.5",
+        "title": "Introduction to overloading the I/O operators",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-overloading-the-i-o-operators/"
+      },
+      {
+        "id": "13.6",
+        "key": "13:13.6",
+        "title": "Scoped enumerations (enum classes)",
+        "url": "https://www.learncpp.com/cpp-tutorial/scoped-enumerations-enum-classes/"
+      },
+      {
+        "id": "13.7",
+        "key": "13:13.7",
+        "title": "Introduction to structs, members, and member selection",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-structs-members-and-member-selection/"
+      },
+      {
+        "id": "13.8",
+        "key": "13:13.8",
+        "title": "Struct aggregate initialization",
+        "url": "https://www.learncpp.com/cpp-tutorial/struct-aggregate-initialization/"
+      },
+      {
+        "id": "13.9",
+        "key": "13:13.9",
+        "title": "Default member initialization",
+        "url": "https://www.learncpp.com/cpp-tutorial/default-member-initialization/"
+      },
+      {
+        "id": "13.10",
+        "key": "13:13.10",
+        "title": "Passing and returning structs",
+        "url": "https://www.learncpp.com/cpp-tutorial/passing-and-returning-structs/"
+      },
+      {
+        "id": "13.11",
+        "key": "13:13.11",
+        "title": "Struct miscellany",
+        "url": "https://www.learncpp.com/cpp-tutorial/struct-miscellany/"
+      },
+      {
+        "id": "13.12",
+        "key": "13:13.12",
+        "title": "Member selection with pointers and references",
+        "url": "https://www.learncpp.com/cpp-tutorial/member-selection-with-pointers-and-references/"
+      },
+      {
+        "id": "13.13",
+        "key": "13:13.13",
+        "title": "Class templates",
+        "url": "https://www.learncpp.com/cpp-tutorial/class-templates/"
+      },
+      {
+        "id": "13.14",
+        "key": "13:13.14",
+        "title": "Class template argument deduction (CTAD) and deduction guides",
+        "url": "https://www.learncpp.com/cpp-tutorial/class-template-argument-deduction-ctad-and-deduction-guides/"
+      },
+      {
+        "id": "13.15",
+        "key": "13:13.15",
+        "title": "Alias templates",
+        "url": "https://www.learncpp.com/cpp-tutorial/alias-templates/"
+      },
+      {
+        "id": "13.x",
+        "key": "13:13.x",
+        "title": "Chapter 13 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-13-summary-and-quiz/"
+      },
+      {
+        "id": "13.y",
+        "key": "13:13.y",
+        "title": "Using a language reference",
+        "url": "https://www.learncpp.com/cpp-tutorial/using-a-language-reference/"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Introduction to Classes",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "14.1",
+        "key": "14:14.1",
+        "title": "Introduction to object-oriented programming",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-object-oriented-programming/"
+      },
+      {
+        "id": "14.2",
+        "key": "14:14.2",
+        "title": "Introduction to classes",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-classes/"
+      },
+      {
+        "id": "14.3",
+        "key": "14:14.3",
+        "title": "Member functions",
+        "url": "https://www.learncpp.com/cpp-tutorial/member-functions/"
+      },
+      {
+        "id": "14.4",
+        "key": "14:14.4",
+        "title": "Const class objects and const member functions",
+        "url": "https://www.learncpp.com/cpp-tutorial/const-class-objects-and-const-member-functions/"
+      },
+      {
+        "id": "14.5",
+        "key": "14:14.5",
+        "title": "Public and private members and access specifiers",
+        "url": "https://www.learncpp.com/cpp-tutorial/public-and-private-members-and-access-specifiers/"
+      },
+      {
+        "id": "14.6",
+        "key": "14:14.6",
+        "title": "Access functions",
+        "url": "https://www.learncpp.com/cpp-tutorial/access-functions/"
+      },
+      {
+        "id": "14.7",
+        "key": "14:14.7",
+        "title": "Member functions returning references to data members",
+        "url": "https://www.learncpp.com/cpp-tutorial/member-functions-returning-references-to-data-members/"
+      },
+      {
+        "id": "14.8",
+        "key": "14:14.8",
+        "title": "The benefits of data hiding (encapsulation)",
+        "url": "https://www.learncpp.com/cpp-tutorial/the-benefits-of-data-hiding-encapsulation/"
+      },
+      {
+        "id": "14.9",
+        "key": "14:14.9",
+        "title": "Introduction to constructors",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-constructors/"
+      },
+      {
+        "id": "14.10",
+        "key": "14:14.10",
+        "title": "Constructor member initializer lists",
+        "url": "https://www.learncpp.com/cpp-tutorial/constructor-member-initializer-lists/"
+      },
+      {
+        "id": "14.11",
+        "key": "14:14.11",
+        "title": "Default constructors and default arguments",
+        "url": "https://www.learncpp.com/cpp-tutorial/default-constructors-and-default-arguments/"
+      },
+      {
+        "id": "14.12",
+        "key": "14:14.12",
+        "title": "Delegating constructors",
+        "url": "https://www.learncpp.com/cpp-tutorial/delegating-constructors/"
+      },
+      {
+        "id": "14.13",
+        "key": "14:14.13",
+        "title": "Temporary class objects",
+        "url": "https://www.learncpp.com/cpp-tutorial/temporary-class-objects/"
+      },
+      {
+        "id": "14.14",
+        "key": "14:14.14",
+        "title": "Introduction to the copy constructor",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-the-copy-constructor/"
+      },
+      {
+        "id": "14.15",
+        "key": "14:14.15",
+        "title": "Class initialization and copy elision",
+        "url": "https://www.learncpp.com/cpp-tutorial/class-initialization-and-copy-elision/"
+      },
+      {
+        "id": "14.16",
+        "key": "14:14.16",
+        "title": "Converting constructors and the explicit keyword",
+        "url": "https://www.learncpp.com/cpp-tutorial/converting-constructors-and-the-explicit-keyword/"
+      },
+      {
+        "id": "14.17",
+        "key": "14:14.17",
+        "title": "Constexpr aggregates and classes",
+        "url": "https://www.learncpp.com/cpp-tutorial/constexpr-aggregates-and-classes/"
+      },
+      {
+        "id": "14.x",
+        "key": "14:14.x",
+        "title": "Chapter 14 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-14-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "title": "More on Classes",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "15.1",
+        "key": "15:15.1",
+        "title": "The hidden “this” pointer and member function chaining",
+        "url": "https://www.learncpp.com/cpp-tutorial/the-hidden-this-pointer-and-member-function-chaining/"
+      },
+      {
+        "id": "15.2",
+        "key": "15:15.2",
+        "title": "Classes and header files",
+        "url": "https://www.learncpp.com/cpp-tutorial/classes-and-header-files/"
+      },
+      {
+        "id": "15.3",
+        "key": "15:15.3",
+        "title": "Nested types (member types)",
+        "url": "https://www.learncpp.com/cpp-tutorial/nested-types-member-types/"
+      },
+      {
+        "id": "15.4",
+        "key": "15:15.4",
+        "title": "Introduction to destructors",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-destructors/"
+      },
+      {
+        "id": "15.5",
+        "key": "15:15.5",
+        "title": "Class templates with member functions",
+        "url": "https://www.learncpp.com/cpp-tutorial/class-templates-with-member-functions/"
+      },
+      {
+        "id": "15.6",
+        "key": "15:15.6",
+        "title": "Static member variables",
+        "url": "https://www.learncpp.com/cpp-tutorial/static-member-variables/"
+      },
+      {
+        "id": "15.7",
+        "key": "15:15.7",
+        "title": "Static member functions",
+        "url": "https://www.learncpp.com/cpp-tutorial/static-member-functions/"
+      },
+      {
+        "id": "15.8",
+        "key": "15:15.8",
+        "title": "Friend non-member functions",
+        "url": "https://www.learncpp.com/cpp-tutorial/friend-non-member-functions/"
+      },
+      {
+        "id": "15.9",
+        "key": "15:15.9",
+        "title": "Friend classes and friend member functions",
+        "url": "https://www.learncpp.com/cpp-tutorial/friend-classes-and-friend-member-functions/"
+      },
+      {
+        "id": "15.10",
+        "key": "15:15.10",
+        "title": "Ref qualifiers",
+        "url": "https://www.learncpp.com/cpp-tutorial/ref-qualifiers/"
+      },
+      {
+        "id": "15.x",
+        "key": "15:15.x",
+        "title": "Chapter 15 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-15-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Dynamic arrays: std::vector",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "16.1",
+        "key": "16:16.1",
+        "title": "Introduction to containers and arrays",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-containers-and-arrays/"
+      },
+      {
+        "id": "16.2",
+        "key": "16:16.2",
+        "title": "Introduction to std::vector and list constructors",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-stdvector-and-list-constructors/"
+      },
+      {
+        "id": "16.3",
+        "key": "16:16.3",
+        "title": "std::vector and the unsigned length and subscript problem",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdvector-and-the-unsigned-length-and-subscript-problem/"
+      },
+      {
+        "id": "16.4",
+        "key": "16:16.4",
+        "title": "Passing std::vector",
+        "url": "https://www.learncpp.com/cpp-tutorial/passing-stdvector/"
+      },
+      {
+        "id": "16.5",
+        "key": "16:16.5",
+        "title": "Returning std::vector, and an introduction to move semantics",
+        "url": "https://www.learncpp.com/cpp-tutorial/returning-stdvector-and-an-introduction-to-move-semantics/"
+      },
+      {
+        "id": "16.6",
+        "key": "16:16.6",
+        "title": "Arrays and loops",
+        "url": "https://www.learncpp.com/cpp-tutorial/arrays-and-loops/"
+      },
+      {
+        "id": "16.7",
+        "key": "16:16.7",
+        "title": "Arrays, loops, and sign challenge solutions",
+        "url": "https://www.learncpp.com/cpp-tutorial/arrays-loops-and-sign-challenge-solutions/"
+      },
+      {
+        "id": "16.8",
+        "key": "16:16.8",
+        "title": "Range-based for loops (for-each)",
+        "url": "https://www.learncpp.com/cpp-tutorial/range-based-for-loops-for-each/"
+      },
+      {
+        "id": "16.9",
+        "key": "16:16.9",
+        "title": "Array indexing and length using enumerators",
+        "url": "https://www.learncpp.com/cpp-tutorial/array-indexing-and-length-using-enumerators/"
+      },
+      {
+        "id": "16.10",
+        "key": "16:16.10",
+        "title": "std::vector resizing and capacity",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdvector-resizing-and-capacity/"
+      },
+      {
+        "id": "16.11",
+        "key": "16:16.11",
+        "title": "std::vector and stack behavior",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdvector-and-stack-behavior/"
+      },
+      {
+        "id": "16.12",
+        "key": "16:16.12",
+        "title": "std::vector<bool>",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdvector-bool/"
+      },
+      {
+        "id": "16.x",
+        "key": "16:16.x",
+        "title": "Chapter 16 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-16-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "title": "Fixed-size arrays: std::array and C-style arrays",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "17.1",
+        "key": "17:17.1",
+        "title": "Introduction to std::array",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-stdarray/"
+      },
+      {
+        "id": "17.2",
+        "key": "17:17.2",
+        "title": "std::array length and indexing",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdarray-length-and-indexing/"
+      },
+      {
+        "id": "17.3",
+        "key": "17:17.3",
+        "title": "Passing and returning std::array",
+        "url": "https://www.learncpp.com/cpp-tutorial/passing-and-returning-stdarray/"
+      },
+      {
+        "id": "17.4",
+        "key": "17:17.4",
+        "title": "std::array of class types, and brace elision",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdarray-of-class-types-and-brace-elision/"
+      },
+      {
+        "id": "17.5",
+        "key": "17:17.5",
+        "title": "Arrays of references via std::reference_wrapper",
+        "url": "https://www.learncpp.com/cpp-tutorial/arrays-of-references-via-stdreference_wrapper/"
+      },
+      {
+        "id": "17.6",
+        "key": "17:17.6",
+        "title": "std::array and enumerations",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdarray-and-enumerations/"
+      },
+      {
+        "id": "17.7",
+        "key": "17:17.7",
+        "title": "Introduction to C-style arrays",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-c-style-arrays/"
+      },
+      {
+        "id": "17.8",
+        "key": "17:17.8",
+        "title": "C-style array decay",
+        "url": "https://www.learncpp.com/cpp-tutorial/c-style-array-decay/"
+      },
+      {
+        "id": "17.9",
+        "key": "17:17.9",
+        "title": "Pointer arithmetic and subscripting",
+        "url": "https://www.learncpp.com/cpp-tutorial/pointer-arithmetic-and-subscripting/"
+      },
+      {
+        "id": "17.10",
+        "key": "17:17.10",
+        "title": "C-style strings",
+        "url": "https://www.learncpp.com/cpp-tutorial/c-style-strings/"
+      },
+      {
+        "id": "17.11",
+        "key": "17:17.11",
+        "title": "C-style string symbolic constants",
+        "url": "https://www.learncpp.com/cpp-tutorial/c-style-string-symbolic-constants/"
+      },
+      {
+        "id": "17.12",
+        "key": "17:17.12",
+        "title": "Multidimensional C-style Arrays",
+        "url": "https://www.learncpp.com/cpp-tutorial/multidimensional-c-style-arrays/"
+      },
+      {
+        "id": "17.13",
+        "key": "17:17.13",
+        "title": "Multidimensional std::array",
+        "url": "https://www.learncpp.com/cpp-tutorial/multidimensional-stdarray/"
+      },
+      {
+        "id": "17.x",
+        "key": "17:17.x",
+        "title": "Chapter 17 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-17-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Iterators and Algorithms (under construction)",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "18.1",
+        "key": "18:18.1",
+        "title": "Sorting an array using selection sort",
+        "url": "https://www.learncpp.com/cpp-tutorial/sorting-an-array-using-selection-sort/"
+      },
+      {
+        "id": "18.2",
+        "key": "18:18.2",
+        "title": "Introduction to iterators",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-iterators/"
+      },
+      {
+        "id": "18.3",
+        "key": "18:18.3",
+        "title": "Introduction to standard library algorithms",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-standard-library-algorithms/"
+      },
+      {
+        "id": "18.4",
+        "key": "18:18.4",
+        "title": "Timing your code",
+        "url": "https://www.learncpp.com/cpp-tutorial/timing-your-code/"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Dynamic Allocation (under construction)",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "19.1",
+        "key": "19:19.1",
+        "title": "Dynamic memory allocation with new and delete",
+        "url": "https://www.learncpp.com/cpp-tutorial/dynamic-memory-allocation-with-new-and-delete/"
+      },
+      {
+        "id": "19.2",
+        "key": "19:19.2",
+        "title": "Dynamically allocating arrays",
+        "url": "https://www.learncpp.com/cpp-tutorial/dynamically-allocating-arrays/"
+      },
+      {
+        "id": "19.3",
+        "key": "19:19.3",
+        "title": "Destructors",
+        "url": "https://www.learncpp.com/cpp-tutorial/destructors/"
+      },
+      {
+        "id": "19.4",
+        "key": "19:19.4",
+        "title": "Pointers to pointers and dynamic multidimensional arrays",
+        "url": "https://www.learncpp.com/cpp-tutorial/pointers-to-pointers/"
+      },
+      {
+        "id": "19.5",
+        "key": "19:19.5",
+        "title": "Void pointers",
+        "url": "https://www.learncpp.com/cpp-tutorial/void-pointers/"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Functions",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "20.1",
+        "key": "20:20.1",
+        "title": "Function Pointers",
+        "url": "https://www.learncpp.com/cpp-tutorial/function-pointers/"
+      },
+      {
+        "id": "20.2",
+        "key": "20:20.2",
+        "title": "The stack and the heap",
+        "url": "https://www.learncpp.com/cpp-tutorial/the-stack-and-the-heap/"
+      },
+      {
+        "id": "20.3",
+        "key": "20:20.3",
+        "title": "Recursion",
+        "url": "https://www.learncpp.com/cpp-tutorial/recursion/"
+      },
+      {
+        "id": "20.4",
+        "key": "20:20.4",
+        "title": "Command line arguments",
+        "url": "https://www.learncpp.com/cpp-tutorial/command-line-arguments/"
+      },
+      {
+        "id": "20.5",
+        "key": "20:20.5",
+        "title": "Ellipsis (and why to avoid them)",
+        "url": "https://www.learncpp.com/cpp-tutorial/ellipsis-and-why-to-avoid-them/"
+      },
+      {
+        "id": "20.6",
+        "key": "20:20.6",
+        "title": "Introduction to lambdas (anonymous functions)",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-lambdas-anonymous-functions/"
+      },
+      {
+        "id": "20.7",
+        "key": "20:20.7",
+        "title": "Lambda captures",
+        "url": "https://www.learncpp.com/cpp-tutorial/lambda-captures/"
+      },
+      {
+        "id": "20.x",
+        "key": "20:20.x",
+        "title": "Chapter 20 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-20-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "title": "Operator Overloading",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "21.1",
+        "key": "21:21.1",
+        "title": "Introduction to operator overloading",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-operator-overloading/"
+      },
+      {
+        "id": "21.2",
+        "key": "21:21.2",
+        "title": "Overloading the arithmetic operators using friend functions",
+        "url": "https://www.learncpp.com/cpp-tutorial/overloading-the-arithmetic-operators-using-friend-functions/"
+      },
+      {
+        "id": "21.3",
+        "key": "21:21.3",
+        "title": "Overloading operators using normal functions",
+        "url": "https://www.learncpp.com/cpp-tutorial/overloading-operators-using-normal-functions/"
+      },
+      {
+        "id": "21.4",
+        "key": "21:21.4",
+        "title": "Overloading the I/O operators",
+        "url": "https://www.learncpp.com/cpp-tutorial/overloading-the-io-operators/"
+      },
+      {
+        "id": "21.5",
+        "key": "21:21.5",
+        "title": "Overloading operators using member functions",
+        "url": "https://www.learncpp.com/cpp-tutorial/overloading-operators-using-member-functions/"
+      },
+      {
+        "id": "21.6",
+        "key": "21:21.6",
+        "title": "Overloading unary operators +, -, and !",
+        "url": "https://www.learncpp.com/cpp-tutorial/overloading-unary-operators/"
+      },
+      {
+        "id": "21.7",
+        "key": "21:21.7",
+        "title": "Overloading the comparison operators",
+        "url": "https://www.learncpp.com/cpp-tutorial/overloading-the-comparison-operators/"
+      },
+      {
+        "id": "21.8",
+        "key": "21:21.8",
+        "title": "Overloading the increment and decrement operators",
+        "url": "https://www.learncpp.com/cpp-tutorial/overloading-the-increment-and-decrement-operators/"
+      },
+      {
+        "id": "21.9",
+        "key": "21:21.9",
+        "title": "Overloading the subscript operator",
+        "url": "https://www.learncpp.com/cpp-tutorial/overloading-the-subscript-operator/"
+      },
+      {
+        "id": "21.10",
+        "key": "21:21.10",
+        "title": "Overloading the parenthesis operator",
+        "url": "https://www.learncpp.com/cpp-tutorial/overloading-the-parenthesis-operator/"
+      },
+      {
+        "id": "21.11",
+        "key": "21:21.11",
+        "title": "Overloading typecasts",
+        "url": "https://www.learncpp.com/cpp-tutorial/overloading-typecasts/"
+      },
+      {
+        "id": "21.12",
+        "key": "21:21.12",
+        "title": "Overloading the assignment operator",
+        "url": "https://www.learncpp.com/cpp-tutorial/overloading-the-assignment-operator/"
+      },
+      {
+        "id": "21.13",
+        "key": "21:21.13",
+        "title": "Shallow vs. deep copying",
+        "url": "https://www.learncpp.com/cpp-tutorial/shallow-vs-deep-copying/"
+      },
+      {
+        "id": "21.14",
+        "key": "21:21.14",
+        "title": "Overloading operators and function templates",
+        "url": "https://www.learncpp.com/cpp-tutorial/overloading-operators-and-function-templates/"
+      },
+      {
+        "id": "21.x",
+        "key": "21:21.x",
+        "title": "Chapter 21 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-21-summary-and-quiz/"
+      },
+      {
+        "id": "21.y",
+        "key": "21:21.y",
+        "title": "Chapter 21 project",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-21-project/"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Move Semantics and Smart Pointers",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "22.1",
+        "key": "22:22.1",
+        "title": "Introduction to smart pointers and move semantics",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-smart-pointers-move-semantics/"
+      },
+      {
+        "id": "22.2",
+        "key": "22:22.2",
+        "title": "R-value references",
+        "url": "https://www.learncpp.com/cpp-tutorial/rvalue-references/"
+      },
+      {
+        "id": "22.3",
+        "key": "22:22.3",
+        "title": "Move constructors and move assignment",
+        "url": "https://www.learncpp.com/cpp-tutorial/move-constructors-and-move-assignment/"
+      },
+      {
+        "id": "22.4",
+        "key": "22:22.4",
+        "title": "std::move",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdmove/"
+      },
+      {
+        "id": "22.5",
+        "key": "22:22.5",
+        "title": "std::unique_ptr",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdunique_ptr/"
+      },
+      {
+        "id": "22.6",
+        "key": "22:22.6",
+        "title": "std::shared_ptr",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdshared_ptr/"
+      },
+      {
+        "id": "22.7",
+        "key": "22:22.7",
+        "title": "Circular dependency issues with std::shared_ptr, and std::weak_ptr",
+        "url": "https://www.learncpp.com/cpp-tutorial/circular-dependency-issues-with-stdshared_ptr-and-stdweak_ptr/"
+      },
+      {
+        "id": "22.x",
+        "key": "22:22.x",
+        "title": "Chapter 22 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-22-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "title": "Object Relationships",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "23.1",
+        "key": "23:23.1",
+        "title": "Object relationships",
+        "url": "https://www.learncpp.com/cpp-tutorial/object-relationships/"
+      },
+      {
+        "id": "23.2",
+        "key": "23:23.2",
+        "title": "Composition",
+        "url": "https://www.learncpp.com/cpp-tutorial/composition/"
+      },
+      {
+        "id": "23.3",
+        "key": "23:23.3",
+        "title": "Aggregation",
+        "url": "https://www.learncpp.com/cpp-tutorial/aggregation/"
+      },
+      {
+        "id": "23.4",
+        "key": "23:23.4",
+        "title": "Association",
+        "url": "https://www.learncpp.com/cpp-tutorial/association/"
+      },
+      {
+        "id": "23.5",
+        "key": "23:23.5",
+        "title": "Dependencies",
+        "url": "https://www.learncpp.com/cpp-tutorial/dependencies/"
+      },
+      {
+        "id": "23.6",
+        "key": "23:23.6",
+        "title": "Container classes",
+        "url": "https://www.learncpp.com/cpp-tutorial/container-classes/"
+      },
+      {
+        "id": "23.7",
+        "key": "23:23.7",
+        "title": "std::initializer_list",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdinitializer_list/"
+      },
+      {
+        "id": "23.x",
+        "key": "23:23.x",
+        "title": "Chapter 23 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-23-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "title": "Inheritance",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "24.1",
+        "key": "24:24.1",
+        "title": "Introduction to inheritance",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-inheritance/"
+      },
+      {
+        "id": "24.2",
+        "key": "24:24.2",
+        "title": "Basic inheritance in C++",
+        "url": "https://www.learncpp.com/cpp-tutorial/basic-inheritance-in-c/"
+      },
+      {
+        "id": "24.3",
+        "key": "24:24.3",
+        "title": "Order of construction of derived classes",
+        "url": "https://www.learncpp.com/cpp-tutorial/order-of-construction-of-derived-classes/"
+      },
+      {
+        "id": "24.4",
+        "key": "24:24.4",
+        "title": "Constructors and initialization of derived classes",
+        "url": "https://www.learncpp.com/cpp-tutorial/constructors-and-initialization-of-derived-classes/"
+      },
+      {
+        "id": "24.5",
+        "key": "24:24.5",
+        "title": "Inheritance and access specifiers",
+        "url": "https://www.learncpp.com/cpp-tutorial/inheritance-and-access-specifiers/"
+      },
+      {
+        "id": "24.6",
+        "key": "24:24.6",
+        "title": "Adding new functionality to a derived class",
+        "url": "https://www.learncpp.com/cpp-tutorial/adding-new-functionality-to-a-derived-class/"
+      },
+      {
+        "id": "24.7",
+        "key": "24:24.7",
+        "title": "Calling inherited functions and overriding behavior",
+        "url": "https://www.learncpp.com/cpp-tutorial/calling-inherited-functions-and-overriding-behavior/"
+      },
+      {
+        "id": "24.8",
+        "key": "24:24.8",
+        "title": "Hiding inherited functionality",
+        "url": "https://www.learncpp.com/cpp-tutorial/hiding-inherited-functionality/"
+      },
+      {
+        "id": "24.9",
+        "key": "24:24.9",
+        "title": "Multiple inheritance",
+        "url": "https://www.learncpp.com/cpp-tutorial/multiple-inheritance/"
+      },
+      {
+        "id": "24.x",
+        "key": "24:24.x",
+        "title": "Chapter 24 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-24-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "title": "Virtual Functions",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "25.1",
+        "key": "25:25.1",
+        "title": "Pointers and references to the base class of derived objects",
+        "url": "https://www.learncpp.com/cpp-tutorial/pointers-and-references-to-the-base-class-of-derived-objects/"
+      },
+      {
+        "id": "25.2",
+        "key": "25:25.2",
+        "title": "Virtual functions and polymorphism",
+        "url": "https://www.learncpp.com/cpp-tutorial/virtual-functions/"
+      },
+      {
+        "id": "25.3",
+        "key": "25:25.3",
+        "title": "The override and final specifiers, and covariant return types",
+        "url": "https://www.learncpp.com/cpp-tutorial/the-override-and-final-specifiers-and-covariant-return-types/"
+      },
+      {
+        "id": "25.4",
+        "key": "25:25.4",
+        "title": "Virtual destructors, virtual assignment, and overriding virtualization",
+        "url": "https://www.learncpp.com/cpp-tutorial/virtual-destructors-virtual-assignment-and-overriding-virtualization/"
+      },
+      {
+        "id": "25.5",
+        "key": "25:25.5",
+        "title": "Early binding and late binding",
+        "url": "https://www.learncpp.com/cpp-tutorial/early-binding-and-late-binding/"
+      },
+      {
+        "id": "25.6",
+        "key": "25:25.6",
+        "title": "The virtual table",
+        "url": "https://www.learncpp.com/cpp-tutorial/the-virtual-table/"
+      },
+      {
+        "id": "25.7",
+        "key": "25:25.7",
+        "title": "Pure virtual functions, abstract base classes, and interface classes",
+        "url": "https://www.learncpp.com/cpp-tutorial/pure-virtual-functions-abstract-base-classes-and-interface-classes/"
+      },
+      {
+        "id": "25.8",
+        "key": "25:25.8",
+        "title": "Virtual base classes",
+        "url": "https://www.learncpp.com/cpp-tutorial/virtual-base-classes/"
+      },
+      {
+        "id": "25.9",
+        "key": "25:25.9",
+        "title": "Object slicing",
+        "url": "https://www.learncpp.com/cpp-tutorial/object-slicing/"
+      },
+      {
+        "id": "25.10",
+        "key": "25:25.10",
+        "title": "Dynamic casting",
+        "url": "https://www.learncpp.com/cpp-tutorial/dynamic-casting/"
+      },
+      {
+        "id": "25.11",
+        "key": "25:25.11",
+        "title": "Printing inherited classes using operator<<",
+        "url": "https://www.learncpp.com/cpp-tutorial/printing-inherited-classes-using-operator/"
+      },
+      {
+        "id": "25.x",
+        "key": "25:25.x",
+        "title": "Chapter 25 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-25-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "title": "Templates and Classes",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "26.1",
+        "key": "26:26.1",
+        "title": "Template classes",
+        "url": "https://www.learncpp.com/cpp-tutorial/template-classes/"
+      },
+      {
+        "id": "26.2",
+        "key": "26:26.2",
+        "title": "Template non-type parameters",
+        "url": "https://www.learncpp.com/cpp-tutorial/template-non-type-parameters/"
+      },
+      {
+        "id": "26.3",
+        "key": "26:26.3",
+        "title": "Function template specialization",
+        "url": "https://www.learncpp.com/cpp-tutorial/function-template-specialization/"
+      },
+      {
+        "id": "26.4",
+        "key": "26:26.4",
+        "title": "Class template specialization",
+        "url": "https://www.learncpp.com/cpp-tutorial/class-template-specialization/"
+      },
+      {
+        "id": "26.5",
+        "key": "26:26.5",
+        "title": "Partial template specialization",
+        "url": "https://www.learncpp.com/cpp-tutorial/partial-template-specialization/"
+      },
+      {
+        "id": "26.6",
+        "key": "26:26.6",
+        "title": "Partial template specialization for pointers",
+        "url": "https://www.learncpp.com/cpp-tutorial/partial-template-specialization-for-pointers/"
+      },
+      {
+        "id": "26.x",
+        "key": "26:26.x",
+        "title": "Chapter 26 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-26-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "title": "Exceptions",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "27.1",
+        "key": "27:27.1",
+        "title": "The need for exceptions",
+        "url": "https://www.learncpp.com/cpp-tutorial/the-need-for-exceptions/"
+      },
+      {
+        "id": "27.2",
+        "key": "27:27.2",
+        "title": "Basic exception handling",
+        "url": "https://www.learncpp.com/cpp-tutorial/basic-exception-handling/"
+      },
+      {
+        "id": "27.3",
+        "key": "27:27.3",
+        "title": "Exceptions, functions, and stack unwinding",
+        "url": "https://www.learncpp.com/cpp-tutorial/exceptions-functions-and-stack-unwinding/"
+      },
+      {
+        "id": "27.4",
+        "key": "27:27.4",
+        "title": "Uncaught exceptions and catch-all handlers",
+        "url": "https://www.learncpp.com/cpp-tutorial/uncaught-exceptions-catch-all-handlers/"
+      },
+      {
+        "id": "27.5",
+        "key": "27:27.5",
+        "title": "Exceptions, classes, and inheritance",
+        "url": "https://www.learncpp.com/cpp-tutorial/exceptions-classes-and-inheritance/"
+      },
+      {
+        "id": "27.6",
+        "key": "27:27.6",
+        "title": "Rethrowing exceptions",
+        "url": "https://www.learncpp.com/cpp-tutorial/rethrowing-exceptions/"
+      },
+      {
+        "id": "27.7",
+        "key": "27:27.7",
+        "title": "Function try blocks",
+        "url": "https://www.learncpp.com/cpp-tutorial/function-try-blocks/"
+      },
+      {
+        "id": "27.8",
+        "key": "27:27.8",
+        "title": "Exception dangers and downsides",
+        "url": "https://www.learncpp.com/cpp-tutorial/exception-dangers-and-downsides/"
+      },
+      {
+        "id": "27.9",
+        "key": "27:27.9",
+        "title": "Exception specifications and noexcept",
+        "url": "https://www.learncpp.com/cpp-tutorial/exception-specifications-and-noexcept/"
+      },
+      {
+        "id": "27.10",
+        "key": "27:27.10",
+        "title": "std::move_if_noexcept",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdmove_if_noexcept/"
+      },
+      {
+        "id": "27.x",
+        "key": "27:27.x",
+        "title": "Chapter 27 summary and quiz",
+        "url": "https://www.learncpp.com/cpp-tutorial/chapter-27-summary-and-quiz/"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "title": "Input and Output (I/O)",
+    "group": "main",
+    "lessons": [
+      {
+        "id": "28.1",
+        "key": "28:28.1",
+        "title": "Input and output (I/O) streams",
+        "url": "https://www.learncpp.com/cpp-tutorial/input-and-output-io-streams/"
+      },
+      {
+        "id": "28.2",
+        "key": "28:28.2",
+        "title": "Input with istream",
+        "url": "https://www.learncpp.com/cpp-tutorial/input-with-istream/"
+      },
+      {
+        "id": "28.3",
+        "key": "28:28.3",
+        "title": "Output with ostream and ios",
+        "url": "https://www.learncpp.com/cpp-tutorial/output-with-ostream-and-ios/"
+      },
+      {
+        "id": "28.4",
+        "key": "28:28.4",
+        "title": "Stream classes for strings",
+        "url": "https://www.learncpp.com/cpp-tutorial/stream-classes-for-strings/"
+      },
+      {
+        "id": "28.5",
+        "key": "28:28.5",
+        "title": "Stream states and input validation",
+        "url": "https://www.learncpp.com/cpp-tutorial/stream-states-and-input-validation/"
+      },
+      {
+        "id": "28.6",
+        "key": "28:28.6",
+        "title": "Basic file I/O",
+        "url": "https://www.learncpp.com/cpp-tutorial/basic-file-io/"
+      },
+      {
+        "id": "28.7",
+        "key": "28:28.7",
+        "title": "Random file I/O",
+        "url": "https://www.learncpp.com/cpp-tutorial/random-file-io/"
+      }
+    ]
+  },
+  {
+    "id": "A",
+    "title": "Miscellaneous Subjects",
+    "group": "side",
+    "lessons": [
+      {
+        "id": "A.1",
+        "key": "A:A.1",
+        "title": "Static and dynamic libraries",
+        "url": "https://www.learncpp.com/cpp-tutorial/a1-static-and-dynamic-libraries/"
+      },
+      {
+        "id": "A.2",
+        "key": "A:A.2",
+        "title": "Using libraries with Visual Studio",
+        "url": "https://www.learncpp.com/cpp-tutorial/a2-using-libraries-with-visual-studio-2005-express/"
+      },
+      {
+        "id": "A.3",
+        "key": "A:A.3",
+        "title": "Using libraries with Code::Blocks",
+        "url": "https://www.learncpp.com/cpp-tutorial/a3-using-libraries-with-codeblocks/"
+      },
+      {
+        "id": "A.4",
+        "key": "A:A.4",
+        "title": "C++ FAQ",
+        "url": "https://www.learncpp.com/cpp-tutorial/cpp-faq/"
+      }
+    ]
+  },
+  {
+    "id": "B",
+    "title": "C++ Updates",
+    "group": "side",
+    "lessons": [
+      {
+        "id": "B.1",
+        "key": "B:B.1",
+        "title": "Introduction to C++11",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-c11/"
+      },
+      {
+        "id": "B.2",
+        "key": "B:B.2",
+        "title": "Introduction to C++14",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-c14/"
+      },
+      {
+        "id": "B.3",
+        "key": "B:B.3",
+        "title": "Introduction to C++17",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-c17/"
+      },
+      {
+        "id": "B.4",
+        "key": "B:B.4",
+        "title": "Introduction to C++20",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-c20/"
+      },
+      {
+        "id": "B.5",
+        "key": "B:B.5",
+        "title": "Introduction to C++23",
+        "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-c23/"
+      }
+    ]
+  },
+  {
+    "id": "C",
+    "title": "The End",
+    "group": "side",
+    "lessons": [
+      {
+        "id": "C.1",
+        "key": "C:C.1",
+        "title": "The end?",
+        "url": "https://www.learncpp.com/cpp-tutorial/appendix-c-the-end/"
+      }
+    ]
+  },
+  {
+    "id": "D",
+    "title": "Deprecated Articles (will be removed soon)",
+    "group": "archive",
+    "lessons": [
+      {
+        "id": "21.1",
+        "key": "D:21.1",
+        "title": "The Standard Library",
+        "url": "https://www.learncpp.com/cpp-tutorial/the-standard-library/"
+      },
+      {
+        "id": "21.2",
+        "key": "D:21.2",
+        "title": "STL containers overview",
+        "url": "https://www.learncpp.com/cpp-tutorial/stl-containers-overview/"
+      },
+      {
+        "id": "21.3",
+        "key": "D:21.3",
+        "title": "STL iterators overview",
+        "url": "https://www.learncpp.com/cpp-tutorial/stl-iterators-overview/"
+      },
+      {
+        "id": "21.4",
+        "key": "D:21.4",
+        "title": "STL algorithms overview",
+        "url": "https://www.learncpp.com/cpp-tutorial/stl-algorithms-overview/"
+      },
+      {
+        "id": "22.1",
+        "key": "D:22.1",
+        "title": "std::string and std::wstring",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdstring-and-stdwstring/"
+      },
+      {
+        "id": "22.2",
+        "key": "D:22.2",
+        "title": "std::string construction and destruction",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdstring-construction-and-destruction/"
+      },
+      {
+        "id": "22.3",
+        "key": "D:22.3",
+        "title": "std::string length and capacity",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdstring-length-and-capacity/"
+      },
+      {
+        "id": "22.4",
+        "key": "D:22.4",
+        "title": "std::string character access and conversion to C-style arrays",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdstring-character-access-and-conversion-to-c-style-arrays/"
+      },
+      {
+        "id": "22.5",
+        "key": "D:22.5",
+        "title": "std::string assignment and swapping",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdstring-assignment-and-swapping/"
+      },
+      {
+        "id": "22.6",
+        "key": "D:22.6",
+        "title": "std::string appending",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdstring-appending/"
+      },
+      {
+        "id": "22.7",
+        "key": "D:22.7",
+        "title": "std::string inserting",
+        "url": "https://www.learncpp.com/cpp-tutorial/stdstring-inserting/"
+      }
+    ]
+  }
+]

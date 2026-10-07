@@ -1,0 +1,25 @@
+name: Build release artifacts
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/build.py
+      - name: Record checksum
+        working-directory: dist
+        run: sha256sum cpp-tree.pyz > SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cpp-tree-${{ github.ref_name }}
+          path: |
+            dist/cpp-tree.pyz
+            dist/SHA256SUMS
+          if-no-files-found: error

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+progress.json*
+stream.txt
+*.lock
+.env
