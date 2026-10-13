@@ -1,6 +1,7 @@
 """Drive actual curses sessions through a pseudoterminal, including saves."""
 
 import fcntl
+import itertools
 import os
 import pty
 import select
@@ -20,11 +21,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class TerminalTests(unittest.TestCase):
     def test_interactive_search_notes_save_and_terminal_modes(self):
-        for mode in ("truecolor", "256"):
-            with self.subTest(mode=mode), tempfile.TemporaryDirectory() as work:
+        for mode, size in itertools.product(("truecolor", "256"), ((22, 72), (40, 140))):
+            with self.subTest(mode=mode, size=size), tempfile.TemporaryDirectory() as work:
                 master, slave = pty.openpty()
                 state = Path(work) / "progress.json"
-                fcntl.ioctl(slave, termios.TIOCSWINSZ, struct.pack("HHHH", 40, 140, 0, 0))
+                fcntl.ioctl(slave, termios.TIOCSWINSZ, struct.pack("HHHH", *size, 0, 0))
                 process = subprocess.Popen(
                     [sys.executable, "-m", "cpp_tree", "--state", str(state), "--color", mode],
                     cwd=ROOT,
@@ -53,13 +54,25 @@ class TerminalTests(unittest.TestCase):
                     read_until(b"CORE TALENTS")
                     os.write(master, b"/4.9\nfe")
                     read_until(b"NOTES")
-                    os.write(master, b"Terminal integration test\x13 q")
+                    transcript.clear()
+                    os.write(master, b"Terminal integration test\x1b")
+                    read_until(b"UNSAVED NOTE CHANGES")
+                    transcript.clear()
+                    os.write(master, b"\x1b")
+                    read_until(b"Ctrl-S save")
+                    os.write(master, b"\x13E")
+                    read_until(b"CHAPTER 4 NOTES")
+                    transcript.clear()
+                    os.write(master, b"Chapter integration test\x1b")
+                    read_until(b"UNSAVED NOTE CHANGES")
+                    os.write(master, b"s q")
                     read_until(b"Progress saved")
                     self.assertEqual(process.wait(timeout=5), 0)
                     data = read_snapshot(state)
                     self.assertEqual(data["focus"], "4:4.9")
                     self.assertIn("4:4.9", data["completed"])
                     self.assertEqual(data["notes"]["lesson:4:4.9"], "Terminal integration test")
+                    self.assertEqual(data["notes"]["chapter:4"], "Chapter integration test")
                 finally:
                     if process.poll() is None:
                         process.kill()

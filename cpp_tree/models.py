@@ -63,7 +63,7 @@ class Options(argparse.Namespace):
 
 Node = Lesson | Chapter
 Modal = (
-    tuple[Literal["notes"], str, str, str]
+    tuple[Literal["notes", "notes_confirm"], str, str, str]
     | tuple[Literal["bulk"], str]
     | tuple[Literal["search"]]
     | tuple[Literal["help"]]

@@ -148,11 +148,17 @@ tree; the detail sidebar appears at 118 columns. Press `?` for the in-app key gu
 | Search | `Ctrl-U` | Clear the query |
 | Notes | `Ctrl-S` | Save and close |
 | Notes | `Enter` / arrows | New line / move the cursor |
-| Search or notes | `Esc` | Cancel; unsaved note edits are discarded |
+| Search | `Esc` | Cancel |
+| Notes | `Esc` | Close; prompt if there are unsaved edits |
+| Unsaved notes prompt | `S` / `Ctrl-S` | Save and close |
+| Unsaved notes prompt | `D` | Discard edits and close |
+| Unsaved notes prompt | `Esc` / `Enter` / `C` | Keep editing |
 
 Notes support up to 20,000 characters each. Completion autosaves immediately;
-**note edits save when you press `Ctrl-S`**. Undo/redo applies to completion changes,
-not notes or quest pins, and resets when you close the app.
+**note edits save when you press `Ctrl-S` or choose Save in the close prompt**.
+Closing a changed lesson or chapter note asks you to save, discard, or keep editing.
+If saving fails, the editor keeps your text so you can retry. Undo/redo applies to
+completion changes, not notes or quest pins, and resets when you close the app.
 
 ## Command-line options
 

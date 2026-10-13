@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+### Fixed
+
+- Closing lesson or chapter notes with unsaved edits now offers Save, Discard, or
+  Keep editing. Escape and Enter in the prompt return to the draft; failed saves
+  keep the text in the editor for retry.
+
 ## 1.2.0 — Repository preparation
 
 This version is prepared for publication; the tag/release is not created by these files.

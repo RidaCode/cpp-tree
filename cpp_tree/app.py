@@ -309,26 +309,36 @@ class App:
                 break
         return chosen, self.note_cursor - rows[chosen][0]
 
+    def save_note(self) -> None:
+        modal = self.modal
+        if modal is None or modal[0] not in ("notes", "notes_confirm"):
+            return
+        _, note_key, title, subtitle = modal
+        old = dict(self.notes)
+        if self.note_buffer.strip():
+            self.notes[note_key] = self.note_buffer
+        else:
+            _ = self.notes.pop(note_key, None)
+        if self.save():
+            self.modal = None
+            self.notice("Note saved" + (" · demo only" if self.store.demo else ""))
+        else:
+            self.notes = old
+            self.modal = ("notes", note_key, title, subtitle)
+
     def edit_note(self, key: str | int) -> None:
         modal = self.modal
         if modal is None or modal[0] != "notes":
             return
         if key == "\x13":  # Ctrl-S; terminal is in raw mode, so no flow-control freeze.
-            _, note_key, _, _ = modal
-            old = dict(self.notes)
-            if self.note_buffer.strip():
-                self.notes[note_key] = self.note_buffer
-            else:
-                _ = self.notes.pop(note_key, None)
-            if self.save():
-                self.modal = None
-                self.notice("Note saved" + (" · demo only" if self.store.demo else ""))
-            else:
-                self.notes = old
+            self.save_note()
             return
         if key == "\x1b":
-            self.modal = None
-            self.notice("Note editor closed. Unsaved edits discarded.")
+            if self.note_buffer != self.notes.get(modal[1], ""):
+                self.modal = ("notes_confirm", modal[1], modal[2], modal[3])
+            else:
+                self.modal = None
+                self.notice("Note editor closed.")
             return
         pos = self.note_cursor
         if key in (curses.KEY_LEFT, "\x02"):
@@ -384,6 +394,15 @@ class App:
             return
         if modal[0] == "notes":
             self.edit_note(key)
+            return
+        if modal[0] == "notes_confirm":
+            if key in ("s", "S", "\x13"):
+                self.save_note()
+            elif key in ("d", "D"):
+                self.modal = None
+                self.notice("Note editor closed. Unsaved edits discarded.")
+            elif key in ("c", "C", "\x1b", "\n", "\r", curses.KEY_ENTER):
+                self.modal = ("notes", modal[1], modal[2], modal[3])
             return
         if key == "\x1b":
             self.modal = None

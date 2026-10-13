@@ -270,7 +270,7 @@ def draw_modal(app: App, cv: Canvas) -> None:
         cv.text(
             x + 3,
             y + height - 3,
-            "Ctrl-S save    Esc cancel    Enter newline    Arrows move",
+            "Ctrl-S save    Esc close    Enter newline    Arrows move",
             "panel_gold",
             width - 6,
         )
@@ -293,6 +293,14 @@ def draw_modal(app: App, cv: Canvas) -> None:
                 "panel_gold",
                 width - 6,
             )
+    elif modal[0] == "notes_confirm":
+        height, y = 12, (cv.h - 12) // 2
+        cv.box(x, y, width, height, "panel_gold", "panel")
+        cv.text(x + 3, y + 1, "UNSAVED NOTE CHANGES", "panel_gold", width - 6)
+        cv.text(x + 3, y + 3, modal[2] + " · " + modal[3], "panel_muted", width - 6)
+        cv.text(x + 3, y + 5, "S / Ctrl-S       Save and close", "panel", width - 6)
+        cv.text(x + 3, y + 7, "D                Discard changes", "panel", width - 6)
+        cv.text(x + 3, y + 9, "Esc / Enter / C  Keep editing", "panel_gold", width - 6)
     elif modal[0] == "search":
         height = min(cv.h - 4, 24)
         y = (cv.h - height) // 2

@@ -77,6 +77,7 @@ class AppTests(unittest.TestCase):
         app.handle("e")
         app.note_buffer = "Discard this"
         app.handle("\x1b")
+        app.handle("d")
         self.assertNotEqual(app.notes["lesson:0:0.1"], "Discard this")
         app.handle("s")
         app.handle("e")
@@ -84,6 +85,114 @@ class AppTests(unittest.TestCase):
         text = "\n".join("".join(ch for ch, _ in row) for row in app.render(160, 52).cells)
         self.assertNotIn("PRIVATE NOTE CONTENT", text)
         self.assertNotIn("PRIVATE NOTE CONTENT", self.path.with_name("stream.txt").read_text())
+
+    def test_unsaved_lesson_and_chapter_notes_can_resume_and_save(self):
+        app = self.app
+        app.handle("\n")
+        for shortcut, note_key in (("e", "lesson:0:0.1"), ("E", "chapter:0")):
+            with self.subTest(shortcut=shortcut):
+                app.handle(shortcut)
+                for key in "Draft notes":
+                    app.handle(key)
+                editor = app.modal
+                position = (app.note_cursor, app.note_offset)
+                for resume in ("\x1b", "\n", "c"):
+                    app.handle("\x1b")
+                    self.assertIsNotNone(app.modal)
+                    text = "\n".join(
+                        "".join(ch for ch, _ in row) for row in app.render(72, 22).cells
+                    )
+                    self.assertIn("UNSAVED NOTE CHANGES", text)
+                    self.assertIn("Save and close", text)
+                    self.assertIn("Discard changes", text)
+                    self.assertIn("Keep editing", text)
+                    self.assertNotIn(note_key, read_snapshot(self.path)["notes"])
+                    app.handle(resume)
+                    self.assertEqual(app.modal, editor)
+                    self.assertEqual(app.note_buffer, "Draft notes")
+                    self.assertEqual((app.note_cursor, app.note_offset), position)
+                app.handle("!")
+                app.handle("\x1b")
+                app.handle("s" if shortcut == "e" else "\x13")
+                self.assertIsNone(app.modal)
+                self.assertEqual(read_snapshot(self.path)["notes"][note_key], "Draft notes!")
+                app.handle(shortcut)
+                self.assertEqual(app.note_buffer, "Draft notes!")
+                app.handle("\x1b")
+                self.assertIsNone(app.modal)
+
+    def test_discarding_edits_or_deletion_keeps_previous_note(self):
+        app = self.app
+        app.handle("\n")
+        for shortcut, note_key in (("e", "lesson:0:0.1"), ("E", "chapter:0")):
+            with self.subTest(shortcut=shortcut):
+                app.handle(shortcut)
+                app.note_buffer = "Previously saved"
+                app.handle("\x13")
+                for draft in ("Replacement", ""):
+                    app.handle(shortcut)
+                    app.note_buffer = draft
+                    app.handle("\x1b")
+                    self.assertIsNotNone(app.modal)
+                    app.handle("d")
+                    self.assertIsNone(app.modal)
+                    self.assertEqual(
+                        read_snapshot(self.path)["notes"][note_key], "Previously saved"
+                    )
+                    app.handle(shortcut)
+                    self.assertEqual(app.note_buffer, "Previously saved")
+                    app.handle("\x1b")
+                app.handle(shortcut)
+                app.note_buffer = ""
+                app.handle("\x1b")
+                app.handle("s")
+                self.assertIsNone(app.modal)
+                self.assertNotIn(note_key, read_snapshot(self.path)["notes"])
+
+    def test_unchanged_notes_close_without_prompt_or_write(self):
+        app = self.app
+        app.handle("\n")
+        for shortcut in ("e", "E"):
+            with self.subTest(shortcut=shortcut), patch.object(self.store, "save") as save:
+                app.handle(shortcut)
+                app.handle("x")
+                app.handle("\x7f")
+                app.handle("\x1b")
+                self.assertIsNone(app.modal)
+                save.assert_not_called()
+
+    def test_confirmation_save_failure_keeps_draft_and_allows_retry(self):
+        app = self.app
+        app.handle("\n")
+        app.handle("e")
+        app.note_buffer = "Original note"
+        app.handle("\x13")
+        app.handle("e")
+        editor = app.modal
+        app.note_buffer = "Keep this draft"
+        with patch.object(self.store, "save", side_effect=OSError("disk full")):
+            app.handle("\x1b")
+            app.handle("s")
+        self.assertEqual(app.modal, editor)
+        self.assertEqual(app.note_buffer, "Keep this draft")
+        self.assertEqual(app.notes["lesson:0:0.1"], "Original note")
+        self.assertEqual(read_snapshot(self.path)["notes"]["lesson:0:0.1"], "Original note")
+        text = "\n".join("".join(ch for ch, _ in row) for row in app.render(72, 22).cells)
+        self.assertIn("Save failed. Text kept in editor.", text)
+        app.handle("\x13")
+        self.assertIsNone(app.modal)
+        self.assertEqual(read_snapshot(self.path)["notes"]["lesson:0:0.1"], "Keep this draft")
+
+    def test_demo_notes_confirmation_does_not_write_to_disk(self):
+        path = Path(self.temp.name) / "demo" / "progress.json"
+        app = App(Store(path, demo=True), Options(path))
+        app.handle("E")
+        app.note_buffer = "Demo draft"
+        app.handle("\x1b")
+        app.handle("s")
+        self.assertIsNone(app.modal)
+        self.assertEqual(app.notes["chapter:0"], "Demo draft")
+        self.assertFalse(path.parent.exists())
 
     def test_failed_save_rolls_back_progress_focus_and_notes(self):
         app = self.app
@@ -121,6 +230,7 @@ class AppTests(unittest.TestCase):
                 ("help",),
                 ("bulk", "0"),
                 ("notes", "chapter:0", "CHAPTER 0", "Notes"),
+                ("notes_confirm", "chapter:0", "CHAPTER 0", "Notes"),
             ):
                 with self.subTest(size=size, modal=modal):
                     app.modal = modal
